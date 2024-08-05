@@ -1,0 +1,138 @@
+/* header background rgba(255, 255, 255, 0.9)  footer background #e8e8e6;; #363945; #5b6b7f;
+grey #484551;
+blue :#4fa3db;*/
+
+
+.logo-css{
+    width: 80px;
+    margin-left: 21px;
+}
+
+
+.navmenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.nav-links a{
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;
+    color: #4fa3db;
+}
+
+.nav-links a:hover{
+    color: #484551;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.about-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-section h1{
+    font-size: 35px;
+}
+
+.css-span{
+    color: #4fa3db;
+}
+
+.about-section div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.watchvideo-btn{
+    background-color: white;
+    font-size: 25px;
+    width: 205px;
+    height: 45px;
+    color: #4fa3db;
+    font-weight: bold;
+    border: 4px #4fa3db solid;
+    border-radius: 16px;
+}
+.watchvideo-btn:hover{
+    font-size: 21px;
+    width: 181px;
+    height: 38px;
+}
+
+.projects-section{
+    margin-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project p{
+    font-size: 18px;
+    text-align: justify;
+    width: 281px;
+    line-height: 26px;
+}
+
+.project a{
+    text-decoration: none;
+    color: #4fa3db;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-message{
+    font-size: 25px;
+    margin: 30px;
+}
+
+.footer-message a{
+    text-decoration: none;
+    color: #4fa3db;
+    font-weight: bold;
+}
+
+@media (min-width: 576px) and (max-width: 768px) { 
+    body{
+        background-color: yellow;
+    }
+    .nav-links {
+        width: 65%;
+    }
+
+    .logo-css {
+        width: 65px;
+    }
+
+} 
