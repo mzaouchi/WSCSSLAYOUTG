@@ -1,0 +1,18 @@
+.ghofrane{
+    background-color: #212529;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.mahmoud{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.nour{
+    display: flex;
+    justify-content: space-around;
+}
